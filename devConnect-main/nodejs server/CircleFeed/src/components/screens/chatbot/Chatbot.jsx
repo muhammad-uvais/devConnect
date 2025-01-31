@@ -42,7 +42,6 @@ const Chatbot = () => {
                     <button type="submit">Ask</button>
                 </form>
                 <p className="response-area">{loading ? "loading..." : response}</p>
-                <div className="footer">~ AsjadEzazi ~</div>
             </div>
         </div>
     );
